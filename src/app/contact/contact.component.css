@@ -1,3 +1,13 @@
 .m6 {
     text-align: center;
 }
+
+.skills {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.leftdiv {
+    padding-left: 0px;
+    padding-right: 0px;
+}
