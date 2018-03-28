@@ -1,0 +1,356 @@
+/* You can add global styles to this file, and also import other style files */
+
+body,h1,h5 {font-family: "Raleway", sans-serif}
+
+body, html {height: 100%;}
+
+.bgimg {
+    background-image: url('./assets/cover/kaushal-fullcover.png');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.redbutton {
+    background-color: #d82031;
+    width: 120px;
+}
+
+.w3-modal {
+    padding-top: 25px;
+}
+
+.w3-row {
+    padding: 15px;
+}
+
+.w3-display-left {
+    margin-left: 150px;
+    color: white; 
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+.connectbuttons {
+    background-color: #d82031;
+}
+
+.redwords {
+    color:#d82031;
+    font-family: monospace;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.thumnailImg {
+    width: 380px; 
+    height: 200px;
+}
+
+.my-name {
+    text-transform: uppercase; 
+}
+
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #d82031; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #d82031 }
+  }
+
+@media (min-width: 993px) {
+    .w3-modal-content {
+        width: 1400px;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .redbutton {
+        width: 109px;
+    }
+
+    .w3-xlarge {
+        font-size: 22px!important;
+    }
+
+    .bgimg {
+        background-color: black;
+        background-image: none;
+    }
+
+    .w3-modal {
+        padding-top: 50px;
+    }
+
+    .w3-display-middle {
+        top: 25%;
+    }
+
+    .w3-display-left {
+        margin-left: 18px;
+        padding: 0.4rem;
+        padding-top: 130px;
+    }
+
+    .mobilebuttons {
+        padding: .5em;
+    }
+
+    .thumnailImg {
+        width: 100%;
+    }
+
+    .redwords {
+        color:#d82031;
+        font-family: monospace;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+
+    .my-name {
+        font-size: 30px;
+        text-transform: uppercase; 
+    }
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    .redbutton {
+        width: 94px;
+    }
+
+    .w3-xlarge {
+        font-size: 17px!important;
+    }
+
+    .bgimg {
+        background-color: black;
+        background-image: none;
+    }
+
+    .w3-modal {
+        padding-top: 50px;
+    }
+
+    .w3-display-middle {
+        top: 25%;
+    }
+
+    .w3-display-left {
+        margin-left: 28px;
+        padding: 0.4rem;
+        padding-top: 130px;
+    }
+
+    .mobilebuttons {
+        padding: .5em;
+
+    }
+
+    .redwords {
+        color:#d82031;
+        font-family: monospace;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+
+    .my-name {
+        font-size: 30px;
+        text-transform: uppercase; 
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+
+    .redbutton {
+        width: 94px;
+    }
+
+    .w3-xlarge {
+        font-size: 17px!important;
+    }
+
+    .bgimg {
+        background-color: black;
+        background-image: none;
+    }
+
+    .w3-modal {
+        padding-top: 50px;
+    }
+
+    .w3-display-middle {
+        top: 25%;
+    }
+
+    .w3-display-left {
+        margin-left: 28px;
+        padding: 0.4rem;
+        padding-top: 130px;
+    }
+
+    .mobilebuttons {
+        padding: .5em;
+
+    }
+
+    .redwords {
+        color:#d82031;
+        font-family: monospace;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+
+    .my-name {
+        font-size: 30px;
+        text-transform: uppercase; 
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .redbutton {
+        width: 94px;
+    }
+
+    .w3-xlarge {
+        font-size: 17px!important;
+    }
+
+    .bgimg {
+        background-color: black;
+        background-image: none;
+    }
+
+    .w3-modal {
+        padding-top: 50px;
+    }
+
+    .w3-display-middle {
+        top: 25%;
+    }
+
+    .w3-display-left {
+        margin-left: 45px;
+        padding: 0.4rem;
+        padding-top: 130px;
+    }
+
+    .mobilebuttons {
+        padding: .5em;
+
+    }
+
+    .redwords {
+        color:#d82031;
+        font-family: monospace;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+
+    .my-name {
+        font-size: 30px;
+        text-transform: uppercase; 
+    }
+}
+
+/* ----------- Google Pixel ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+and (min-device-width: 360px) 
+and (max-device-height: 640px) 
+and (-webkit-device-pixel-ratio: 3) {
+
+    .redbutton {
+        width: 94px;
+    }
+
+    .w3-xlarge {
+        font-size: 17px!important;
+    }
+
+    .bgimg {
+        background-color: black;
+        background-image: none;
+    }
+
+    .w3-modal {
+        padding-top: 50px;
+    }
+
+    .w3-display-middle {
+        top: 25%;
+    }
+
+    .w3-display-left {
+        margin-left: 45px;
+        padding: 0.4rem;
+        padding-top: 130px;
+    }
+
+    .mobilebuttons {
+        padding: .5em;
+
+    }
+
+    .redwords {
+        color:#d82031;
+        font-family: monospace;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+
+    .my-name {
+        font-size: 30px;
+        text-transform: uppercase; 
+    }
+}
