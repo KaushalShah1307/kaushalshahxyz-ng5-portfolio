@@ -32,42 +32,27 @@
                 <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
                 <p>Code</p>
                 <div class="w3-container w3-round-xlarge leftdiv">
-                    <span class="w3-tag w3-teal w3-round skills">Javascript</span>
-                    <span class="w3-tag w3-teal w3-round skills">Angular JS & 2+</span>
-                    <span class="w3-tag w3-teal w3-round skills">React JS</span>
-                    <span class="w3-tag w3-teal w3-round skills">Node JS</span>
-                    <span class="w3-tag w3-teal w3-round skills">JQuery</span>
-                    <span class="w3-tag w3-teal w3-round skills">Python</span>
-                    <span class="w3-tag w3-teal w3-round skills">Java</span>
-                    <span class="w3-tag w3-teal w3-round skills">HTML5</span>
-                    <span class="w3-tag w3-teal w3-round skills">CSS3</span>
-                  </div><br>
+                  <span class="w3-tag w3-teal w3-round skills" *ngFor="let codingskills of code">
+                    {{codingskills}}
+                  </span>
+                </div><br>
                 <p>Automation</p>
-                  <div class="w3-container w3-round-xlarge leftdiv">
-                    <span class="w3-tag w3-teal w3-round skills">Selenium Webdriver</span>
-                    <span class="w3-tag w3-teal w3-round skills">Protractor</span>
-                    <span class="w3-tag w3-teal w3-round skills">Cypress.io</span>
-                    <span class="w3-tag w3-teal w3-round skills">Jasmine</span>
-                    <span class="w3-tag w3-teal w3-round skills">BrowserStack</span>
-                    <span class="w3-tag w3-teal w3-round skills">PhantomJS</span>
-                  </div><br>
+                <div class="w3-container w3-round-xlarge leftdiv">
+                  <span class="w3-tag w3-teal w3-round skills" *ngFor="let automationskills of automation">
+                    {{automationskills}}
+                  </span>
+                </div><br>
+                <p>Continuous Integration & Tools</p>
+                <div class="w3-container w3-round-xlarge leftdiv">
+                  <span class="w3-tag w3-teal w3-round skills" *ngFor="let toolings of tools">
+                    {{toolings}}
+                  </span>
+                </div><br>
                 <p>Configurations</p>
                 <div class="w3-container w3-round-xlarge leftdiv">
-                  <span class="w3-tag w3-teal w3-round skills">Varnish VCL</span>
-                  <span class="w3-tag w3-teal w3-round skills">Fastly</span>
-                  <span class="w3-tag w3-teal w3-round skills">Jenkins</span>
-                  <span class="w3-tag w3-teal w3-round skills">Git</span>
-                  <span class="w3-tag w3-teal w3-round skills">Google Analytics</span>
-                  <span class="w3-tag w3-teal w3-round skills">Optimizely</span>
-                  <span class="w3-tag w3-teal w3-round skills">Catchpoint</span>
-                </div><br>
-                <p>Tools</p>
-                <div class="w3-container w3-round-xlarge leftdiv">
-                  <span class="w3-tag w3-teal w3-round skills">Jira</span>
-                  <span class="w3-tag w3-teal w3-round skills">Mantis</span>
-                  <span class="w3-tag w3-teal w3-round skills">Confluence</span>
-                  <span class="w3-tag w3-teal w3-round skills">Asana</span>
-                  <span class="w3-tag w3-teal w3-round skills">Pivotal Tracker</span>
+                  <span class="w3-tag w3-teal w3-round skills" *ngFor="let configs of configurations">
+                    {{configs}}
+                  </span>
                 </div>
                 <hr>
               </div>
