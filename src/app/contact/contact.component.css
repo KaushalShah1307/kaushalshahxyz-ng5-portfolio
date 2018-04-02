@@ -11,3 +11,12 @@
     padding-left: 0px;
     padding-right: 0px;
 }
+
+a {
+    color: white;
+}
+
+a.hover {
+    color: white;
+    text-decoration: underline;
+}
