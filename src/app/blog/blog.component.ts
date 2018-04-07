@@ -9,7 +9,7 @@ import 'rxjs/add/operator/map';
 })
 export class BlogComponent implements OnInit {
 
-  private apiURL = 'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2Fviewshare%2F';
+  private apiURL = 'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2Fviewshare%3Fa%3Da';
   data: any = [];
 
   constructor(private http: Http) {
