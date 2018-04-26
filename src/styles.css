@@ -12,6 +12,10 @@ body, html {height: 100%;}
     opacity: 0.8;
 }
 
+.redbutton:focus {
+    outline: 1px;
+}
+
 .redbutton {
     background-color: teal;
     width: 120px;
