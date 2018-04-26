@@ -20,3 +20,8 @@ a.hover {
     color: white;
     text-decoration: underline;
 }
+
+
+.resume-button:focus {
+    outline: 1px;
+}
