@@ -23,6 +23,7 @@ body, html {height: 100%;}
 
 .w3-modal {
     padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .w3-row {
@@ -113,6 +114,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
 
     .w3-modal {
         padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .w3-display-middle {
@@ -170,6 +172,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .w3-modal {
         padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .w3-display-middle {
@@ -223,6 +226,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .w3-modal {
         padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .w3-display-middle {
@@ -276,6 +280,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
 
     .w3-modal {
         padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .w3-display-middle {
@@ -329,6 +334,7 @@ and (-webkit-device-pixel-ratio: 3) {
 
     .w3-modal {
         padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .w3-display-middle {
