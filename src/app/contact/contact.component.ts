@@ -34,7 +34,8 @@ export class ContactComponent implements OnInit {
     'Git',
     'Google Analytics',
     'Optimizely',
-    'Catchpoint'
+    'Catchpoint',
+    'Mongo DB'
   ];
 
   tools = [
