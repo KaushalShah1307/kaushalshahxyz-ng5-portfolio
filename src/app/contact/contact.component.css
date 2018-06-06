@@ -25,3 +25,7 @@ a.hover {
 .resume-button:focus {
     outline: 1px;
 }
+
+.tags {
+    margin-left: 5px;
+}
