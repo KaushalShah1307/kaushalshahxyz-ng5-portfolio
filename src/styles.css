@@ -16,6 +16,10 @@ body, html {height: 100%;}
     outline: 1px;
 }
 
+.w3-margin-right {
+    margin-right: 5px!important;
+}
+
 .redbutton {
     background-color: teal;
     width: 120px;
