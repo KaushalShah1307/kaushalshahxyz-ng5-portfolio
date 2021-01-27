@@ -1,5 +1,11 @@
 .post-title {
     padding-top: 10px;
+    font-size: 15px;
+}
+
+.post-pubDate {
+    font-size: 12px;
+    font-style: italic;
 }
 
 a:hover {

@@ -9,8 +9,8 @@ export class AboutComponent implements OnInit {
 
   bio = [
     'Namaste & Hello 🙏',
-    'I\'m Kaushal Shah, a fellow New Jersey resident originally from India!',
-    'I spearhead the Software Quality Assurance Automation & Strategies @ExecThread, an innovative startup from New York City.'
+    'I\'m Kaushal Shah, a Tech-Influencer by profession and a Writer by heart.',
+    'I spearhead the Software Automation & Strategies @Paul Mason Consulting, a market leader and service provider from the UK.'
   ];
 
   sidehustle = [

@@ -25,7 +25,8 @@ export class ContactComponent implements OnInit {
     'Cypress.io',
     'Jasmine',
     'BrowserStack',
-    'PhantomJS'
+    'PhantomJS',
+    'Sikuli'
   ];
 
   configurations = [
